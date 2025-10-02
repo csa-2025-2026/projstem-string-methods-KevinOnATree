@@ -63,7 +63,7 @@ public class Main
   {
     int sindx = s1.indexOf(s2);
     String s3 = s1.substring(0, sindx);
-    String s4 = s1.substring(s2.length() + 1, s1.length());
+    String s4 = s1.substring(s2.length() + sindx, s1.length());
     String fin5 = s3 + s4;
   return fin5;
 }
